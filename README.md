@@ -1,2 +1,2 @@
-# Homewoks
+# Homeworks
 Homeworks in GoIT
