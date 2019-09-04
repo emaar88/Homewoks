@@ -1,0 +1,105 @@
+body {
+	font-family: 'Playfair Display', serif;
+	width: 1200px;
+	margin: 0 auto;
+	color: #626262;
+}
+p {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h2
+{
+	font-size: 30px;
+}
+
+h3
+{
+	font-family: 'Ubuntu', sans-serif;
+	color:#b4ad9e;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+header
+{
+	width: 900px;
+	margin: 0 auto;
+}
+
+nav {
+	margin-top: 75px;
+}
+
+nav>ul>li
+{
+	list-style: none;
+	display: inline-block;
+	text-transform: uppercase;
+}
+nav>ul>li:nth-child(1)
+{
+	margin-left: 120px;
+}
+nav>ul>li:nth-child(2)
+{
+	margin-left: 120px;
+}
+nav>ul>li:nth-child(3)
+{
+	margin-left: 105px;
+}
+nav>ul>li:nth-child(4)
+{
+	margin-left: 95px;
+}
+nav>ul>li>a
+{
+	text-decoration: none;
+	color:#626262;
+}
+
+nav>ul>li>a:hover, nav>ul>li>a:focus
+{
+	color: #03a9f4;
+}
+
+section
+{
+	width: 900px;
+	margin: 0 auto;
+}
+
+main
+{
+	margin-top: 100px;
+}
+
+
+
+article
+{
+	display: inline-block;
+	width: 420px;
+	vertical-align: top;
+}
+
+article:nth-child(odd)
+{
+	margin-right: 55px;
+}
+
+
+INPUT[type="button"] {
+	background: white;
+	width: 165px;	
+	height: 60px;
+	text-align: center;
+	font-size: 20px;
+	color: #626262;
+}
+
+div.button{
+	text-align: center;
+	margin-top: 55px;
+}
