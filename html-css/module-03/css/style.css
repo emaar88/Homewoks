@@ -25,10 +25,14 @@ header
 {
 	width: 900px;
 	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 105px;
 }
 
-nav {
-	margin-top: 75px;
+nav>ul.navigation
+{
+	margin: 0;
+	padding: 0;	
 }
 
 nav>ul>li
@@ -64,15 +68,18 @@ nav>ul>li>a:hover, nav>ul>li>a:focus
 	color: #03a9f4;
 }
 
-section
+
+.container
 {
 	width: 900px;
 	margin: 0 auto;
 }
 
-main
+
+section
 {
-	margin-top: 100px;
+	width: 900px;
+	margin: 0 auto;
 }
 
 
