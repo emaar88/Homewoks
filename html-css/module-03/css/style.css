@@ -19,8 +19,8 @@ body {
 
 header.container
 {
-	padding-top: 75px;
-	padding-bottom: 75px;
+	padding-top: 76px;
+	padding-bottom: 76px;
 	margin-bottom: 30px;
 }
 
@@ -29,7 +29,9 @@ header.container
 	margin: 0;
 	padding: 0;
 	font-size: 0;	
+	text-align: center;
 	vertical-align: middle;
+	margin: 0 165px;
 }
 
 .navigation li
@@ -38,24 +40,29 @@ header.container
 	display: inline-block;
 	text-transform: uppercase;
 }
+
 .navigation li:nth-child(1)
 {
-	margin: 0 120px 0 165px;
+	margin-right: 116px;
 }
 .navigation li:nth-child(2)
 {
-	margin-right: 105px;
+	margin-right: 104px;
 }
 .navigation li:nth-child(3)
 {
-	margin-right: 95px;
+	margin-right: 96px;
 }
-.navigation li:nth-child(4)
+.navigation li:last-child(4)
 {
 	margin: 0;
 }
+
+
 .navigation li>a
 {
+	display: block;
+	cursor: pointer;
 	text-decoration: none;
 	color:#626262;
 	font-size: 14px;
@@ -74,11 +81,6 @@ header.container
 	margin: 0 auto;
 }
 
-section.information
-{
-margin-bottom: 52px;
-}
-
 .information-list
 {
 	margin: 0;
@@ -90,13 +92,14 @@ margin-bottom: 52px;
 {
 	display: inline-block;	
 	width: 420px;
+	height: auto;
 	vertical-align: top;
 }
 
 .information-list-item-img
 {
-display: block;
-padding-bottom: 25px;
+	display: block;
+	margin-bottom: 24px;
 }
 
 .information-list-item:nth-child(odd)
@@ -104,17 +107,18 @@ padding-bottom: 25px;
 	margin-right: 60px;
 }
 
-
 .information-list-item>h2 
 {
-	font-size: 30px;
+	margin: 0;
 	margin-bottom: 34px;
+	font-size: 30px;
 }
 
 .information-list-item>h3 
 {
-	font-size: 14px;
+	margin: 0;
 	margin-bottom: 24px;
+	font-size: 14px;
 	font-family: 'Ubuntu', sans-serif;
 	color:#b4ad9e;
 	text-transform: uppercase;
@@ -123,21 +127,32 @@ padding-bottom: 25px;
 
 .information-list-item>p 
 {
+	margin: 0;
+	margin-bottom: 136px;
 	font-size: 14px;
 	line-height: 24px;
 }
 
-section.button{
+.information-list-item:nth-last-child(-n+2)>p
+{
+	margin-bottom: 56px;
+}
+
+div.button{
+	margin: 0;
+	padding: 0;
 	text-align: center;
-	margin-bottom: 70px;
+	padding-bottom: 70px;
 }
 
 INPUT[type="button"] {
+	padding: 0;
+	border: 1px solid black;
+	cursor: pointer;
 	background: white;
-	width: 165px;	
-	height: 60px;
 	text-align: center;
+	width: 164px;	
+	height: 60px;
 	font-size: 20px;
 	color: #626262;
 }
-
