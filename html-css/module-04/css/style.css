@@ -1,0 +1,202 @@
+html
+{
+	box-sizing: border-box;
+	/**/
+	/**/
+}
+
+*, 
+*::before, 
+*::after
+{
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	width: 1600px;
+	background: white;
+}
+
+img
+{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.container
+{
+	width: 1170px;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.clearfix::after 
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+.navigation
+{
+	margin-bottom: 78px;
+}
+.first-nav a, .last-nav a
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 11px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+}
+a:hover
+{
+	color:#1abc9c;
+}
+
+.first-nav a
+{
+	float: left;
+}
+.first-nav>a::first-letter
+{
+	font-weight: bold;
+	color:#1abc9c;
+}
+.last-nav a
+{
+	float: right;
+	margin-right:30px;
+}
+
+.header-section
+{
+	height: auto;
+	overflow: hidden;
+	margin: 0 0 92px 0;
+	padding: 0;
+}
+.header-section h2
+{
+	color: #555252;
+	text-align: center;
+	font-size: 48px;
+	line-height: 32px;
+	text-transform: uppercase;
+	margin:0;
+	padding: 32px 0;
+	position: relative;
+  overflow: hidden;
+}
+
+/* Нижняя разделительная линия*/
+.header-section:after
+{
+	display: block;
+	content: "";
+	height: 7px;
+	background-image:url('../img/green-line.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.featured-products
+{
+	margin-bottom: calc(105-15);
+}
+.featured-products-line
+{
+	width: 1110px;
+}
+.featured-products-parts
+{
+	float: left;
+	overflow: hidden;
+	width: 255px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.featured-products-parts:nth-child(4n+1)
+{
+	margin-right: 0;
+}
+
+.featured-products
+{
+	margin-bottom: 73px;
+}
+.link-goods
+{
+	display: block;
+}
+
+.featured-products-parts-name
+{
+	float: left;
+	background: #323232;
+	color: white;
+	width: 200px;
+	height: 40px;
+}
+.featured-products-parts-price
+{
+	float: left;
+	background: #8c8c8c;
+	color: white;
+	width: 54px;
+	height: 40px;
+}
+.featured-products-parts-name p, .featured-products-parts-price p
+{
+	margin: 14px;
+}
+/* Эффект изменения цвета нижних блоков при наведении на весь блок*/
+.featured-products-parts:hover .featured-products-parts-name 
+{
+	background: #1abc9c;
+}
+.featured-products-parts:hover .featured-products-parts-price
+{
+	background: #7fd9c7;
+}
+
+.latest-news
+{
+	float:left;
+}
+
+.latest-news-parts 
+{
+	float: left;
+	width: 350px;
+	margin: 0 15px 45px;
+}
+.latest-news-parts p
+{
+	font-size: 14px;
+	line-height: 26px;
+}
+.label-part
+{
+	font-size: 18px;
+	line-height: 26px;
+}
+/* Нижняя разделительная линия*/
+p>span.label-part:after
+{
+	display: block;
+	content: url(../img/green-line-small.png);
+	margin-bottom: 30px;
+
+}
+.latest-news-parts button
+{
+	padding: 20px 40px;
+	background: #4ec6ab;
+	border: none;
+	border-radius: 2px;
+	color: white;
+}
