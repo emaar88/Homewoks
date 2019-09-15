@@ -45,35 +45,45 @@ a{
 
 .head-module
 {
-	margin-bottom: 78px;
+	margin-bottom: 105px;
 }
 
 .first-item
 {
+	display: block;
 	float: left;
+	font-size: 30px;
+	line-height: 32px;
 }
 .first-item::first-letter
 {
+	display: block;
 	color: #1abc9c;
 	font-weight: bold;
 }
-.list-navigation
+
+nav.navigation
 {
 	float: right;
+	width: 475px;
+	margin-top: 10px;
+}
+.list-navigation
+{
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 11px;
 	color: black;
-	width: 475px;
+	
 }
 
 .list-navigation li
 {
 	display: block;
 	float: left;
-}
+} 
 .list-navigation li:not(:last-child)
 {
 	margin-right: 30px;
@@ -83,25 +93,6 @@ a:hover
 	color:#1abc9c;
 }
 
-
-.navigation>ul>li>a::first-letter
-{
-	font-weight: bold;
-	color:#1abc9c;
-}
-.last-nav a
-{
-	float: right;
-	margin-right:30px;
-}
-
-.latest-news
-{
-	height: auto;
-	margin: 0;
-	padding: 0;
-	margin-bottom: 82px;
-}
  .head-section
 {
 	color: #555252;
@@ -110,7 +101,6 @@ a:hover
 	line-height: 32px;
 	text-transform: uppercase;
 	margin:0;
-	padding: 32px 0;
 } 
 
 /* Нижняя разделительная линия*/
@@ -124,18 +114,16 @@ a:hover
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
+
+.featured-products
+{
+	padding-bottom: 105px;  /* Отступ первой секции */
+}
 .featured-products h2
 {
 	margin-bottom: 93px; /* отступ от зеленой разделительной линии 
 	до блока с карточками */
-}
-
-.featured-products
-{
-	float:left;
-	margin: 0;
-	padding: 0;
-	margin-bottom: 73px;  /* Отступ первой секции */
 }
 .features-list
 {
@@ -194,14 +182,13 @@ a:hover
 
 .latest-news
 {
-	float:left;
-	margin: 0;
-	padding: 0;
-	margin-bottom: 45px; /* Отступ второй секции */
+	font-family: 'Open Sans', sans-serif; /*В этой секции шрифт Open Sans кроме h2*/
+	padding-bottom: 45px; /* Отступ второй секции */
 }
 
 .latest-news h2
 {
+	font-family: 'Roboto', sans-serif;
 	margin-bottom: 81px; /* отступ от зеленой разделительной линии 
 	до блока с карточками */
 }
@@ -216,7 +203,6 @@ a:hover
 
 .latest-news-parts 
 {
-	display: block;
 	float: left;
 	list-style-type: none;
 	width: 350px;
@@ -238,28 +224,33 @@ a:hover
 	margin: 0;
     padding: 0;
 }
-.label-part
+.latest-news-parts h3
 {
 	font-size: 18px;
 	line-height: 26px;
 }
 /* Нижняя разделительная линия*/
-p>span.label-part:after
+.latest-news-parts h3:after
 {
 	display: block;
 	content: url(../img/green-line-small.png);
 	margin-bottom: 30px;
 
 }
-.desc-latest-news
+.latest-news-parts p
 {
 	margin: 0;
 	padding: 0;
 	margin-bottom: 18px;
 }
-.latest-news-parts button
+.latest-news-parts a
 {
-	padding: 20px 40px;
+	display: block;
+	width: 160px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-transform: capitalize;
 	background: #4ec6ab;
 	border: none;
 	border-radius: 2px;
