@@ -183,7 +183,7 @@ a:hover
 .latest-news
 {
 	font-family: 'Open Sans', sans-serif; /*В этой секции шрифт Open Sans кроме h2*/
-	padding-bottom: 45px; /* Отступ второй секции */
+	padding-bottom: 45px; /*Отступ второй секции*/
 }
 
 .latest-news h2
