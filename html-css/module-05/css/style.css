@@ -139,6 +139,7 @@ a:hover
 	background: #e9f0fd;
 	margin: 0 auto;
 	width: 1600px;
+	margin-bottom: -16px;
 }
 .new-collection h2
 {
