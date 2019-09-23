@@ -14,7 +14,6 @@ html
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background: #e9f0fd;
 }
 
 img
@@ -45,8 +44,19 @@ a{
 
 .head-module
 {
-	margin-bottom: 105px;
+	margin: 0 auto;
+	width: 1600px;
 	background: #ffffff;
+}
+
+nav.navigation
+{
+	padding: 29px 0;
+}
+
+.navigation li>a:hover, .navigation li>a:focus, .navigation>.first-item:hover,  .navigation>.first-item:focus
+{
+	color: #1abc9c;
 }
 
 .first-item
@@ -63,10 +73,7 @@ a{
 	font-weight: bold;
 }
 
-nav.navigation
-{
-	padding: 38px 0;
-}
+
 .list-navigation
 {
 	float: right;
@@ -76,7 +83,8 @@ nav.navigation
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 11px;
-	color: black;
+	color: #0f0101;
+	font-weight: 700;
 	
 }
 
@@ -92,6 +100,13 @@ nav.navigation
 a:hover
 {
 	color:#1abc9c;
+}
+
+
+.letter
+{
+	display: block;
+	color: #1abc9c;
 }
 
  .head-section
@@ -119,7 +134,11 @@ a:hover
 
 .new-collection
 {
-	padding-bottom: 98px;  /* Отступ первой секции */
+	padding-top: 100px;
+	padding-bottom: 100px;  /* Отступ первой секции */
+	background: #e9f0fd;
+	margin: 0 auto;
+	width: 1600px;
 }
 .new-collection h2
 {
@@ -170,7 +189,8 @@ a:hover
 }
 .new-collection-parts-name p, .new-collection-parts-price p
 {
-	margin: 14px;
+	margin: 0;
+	padding: 14px;
 }
 /* Эффект изменения цвета нижних блоков при наведении на весь блок*/
 .new-collection-parts:hover .new-collection-parts-name 
@@ -192,9 +212,12 @@ a:hover
 	display: block;
 }
 
+
 .footer-site
 {
-	width: 100%;
+	margin: auto;
+	padding: 0;
+	width: 1600px;
 	height: 88px;
 	font-style: 'Open Sans', sans-serif;
 	background: #323232;
@@ -206,7 +229,7 @@ a:hover
 {
 	color: white;
 }
-.footer-site>p>span
+div>p>span
 {
 	color: #45b8a3;
 }

@@ -4,21 +4,21 @@
     width: 1600px;
     height: 600px;
     margin: auto;
-    background:  url(../img/slider.png); 
-	background-color: rgba(50, 50, 50, 52);
-    margin-bottom: 100px;
+    background: #e9f0fd;
 }
 
 .slider-button
 {
     position: absolute;
-    top: 248px;
-    /* transform: translateY(-50%); */
+    top: 50%;
+    background: #19bb9b no-repeat;
+    transform: translateY(-50%);
     border: none;
     width: 104px;
     height: 104px;
     display: inline-block;
     cursor: pointer;
+    z-index: 10;
 }
 
 .slider-button>img
@@ -31,40 +31,62 @@
 
 .slider-button-next
 {
-    background: #19bb9b no-repeat;
-    
-    right: 245px;
+    background-image: url(../img/next.png);
+     right: 245px; 
     
 }
 
 .slider-button-prev
 {
-    background: #19bb9b no-repeat;
-    left: 245px;
+    background-image: url(../img/prev.png);
+     left: 245px; 
 }
 
-.slider-text {
+.slides
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.slides-item
+{
     position: relative;
-    top: 220px;
+    margin: 0;
+    padding: 0;
+}
+
+.slides-image{
+    width: 1600px;
+    object-fit: cover;
+}
+
+.slides-text {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 200px;
     left: 430px;
     margin: 0;
     padding: 0;
-     width: 740px; 
+    width: 740px; 
+    letter-spacing: -2px;
 } 
-.slider-text h2 {
-    color: #fff; /* text color + color overlay */
+.slides-text h2 {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    color: #fff;
     font-family: "Roboto Black";
     font-size: 60px;
     line-height: 82px;
-    letter-spacing: -2px;
     text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 36px;
+    text-align: left;
 }
-.slider p {
+.slides-text p {
+    margin: 0;
     font-size: 24px;
     line-height: 54px;
-    letter-spacing: -2px;
     color: #fff;
     text-transform: uppercase;
 }

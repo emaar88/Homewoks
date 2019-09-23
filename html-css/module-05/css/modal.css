@@ -9,26 +9,48 @@
 
     width: 235px;
 height: 260px;
-opacity: .55; /* layer alpha */
-background-color: #000; /* layer fill content */
+background: rgba(0,0,1, 0.55);  /*  Прозрачность модального окна 0.55*/
 }
 
-.add-to-cart
+.icons
 {
     padding-top: 80px;
     padding-left: 36px;
 }
 
-.add-to-cart img{
+.icons button{
     cursor: pointer;
     float: left;
     display: block;
     margin-right: 9px;
 }
-.btn
+
+.heart
 {
+    border: none;
+    width: 50px; 
+    height: 50px;
+    background: url(../img/heart.png);
+}
+.two-lines
+{
+    border: none;
+    width: 50px; 
+    height: 50px;
+    background: url(../img/two-lines.png);
+}
+.time
+{
+    border: none;
+    width: 50px; 
+    height: 50px;
+    background: url(../img/time.png);
+}
+.sell
+{
+    border: none;
+    background: url(../img/sell.png);
     margin-top: 7px;
-    border: 1px solid white;
     width: 166px;
 height: 50px;
 background-color: #323232; /* layer fill content */
