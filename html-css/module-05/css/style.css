@@ -45,7 +45,6 @@ a{
 .head-module
 {
 	margin: 0 auto;
-	width: 1600px;
 	background: #ffffff;
 }
 
@@ -103,11 +102,11 @@ a:hover
 }
 
 
-.letter
+/* .letter
 {
 	display: block;
 	color: #1abc9c;
-}
+} */
 
  .head-section
 {
@@ -138,7 +137,6 @@ a:hover
 	padding-bottom: 100px;  /* Отступ первой секции */
 	background: #e9f0fd;
 	margin: 0 auto;
-	width: 1600px;
 	margin-bottom: -16px;
 }
 .new-collection h2
@@ -218,7 +216,6 @@ a:hover
 {
 	margin: auto;
 	padding: 0;
-	width: 1600px;
 	height: 88px;
 	font-style: 'Open Sans', sans-serif;
 	background: #323232;
@@ -228,6 +225,7 @@ a:hover
 
 .footer-site p
 {
+	margin: 0;
 	color: white;
 }
 div>p>span

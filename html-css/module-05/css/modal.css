@@ -32,12 +32,18 @@ background: rgba(0,0,1, 0.55);  /*  Прозрачность модальног�
     height: 50px;
     background: url(../img/heart.png);
 }
+.heart:hover{
+    background-color: #1abc9c;
+}
 .two-lines
 {
     border: none;
     width: 50px; 
     height: 50px;
     background: url(../img/two-lines.png);
+}
+.two-lines:hover{
+    background-color: #1abc9c;
 }
 .time
 {
@@ -46,6 +52,9 @@ background: rgba(0,0,1, 0.55);  /*  Прозрачность модальног�
     height: 50px;
     background: url(../img/time.png);
 }
+.time:hover{
+    background-color: #1abc9c;
+}
 .sell
 {
     border: none;
@@ -53,5 +62,9 @@ background: rgba(0,0,1, 0.55);  /*  Прозрачность модальног�
     margin-top: 7px;
     width: 166px;
 height: 50px;
-background-color: #323232; /* layer fill content */
+}
+
+.sell:hover
+{
+background-color: #323232;
 }
