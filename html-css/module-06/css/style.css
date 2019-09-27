@@ -39,8 +39,8 @@ a{
 
 .head-module
 {
-	margin-top: 29px;
-	margin-bottom: 113px;
+	padding-top: 29px;
+	padding-bottom: 113px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
