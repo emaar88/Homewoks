@@ -49,6 +49,7 @@ a{
 .first-item
 {
 	text-transform: none;
+	transition: color 200ms linear;
 }
 .first-item:hover
 {
@@ -89,11 +90,11 @@ nav.navigation
 	display: block;
 	padding: 12px;
 	color:#95e1d3;
+	transition: color 200ms linear;
 }
 .list-navigation>li>a:hover
 {
 	color:#f38181;
-	transition: color 200ms linear;
 }
 .list-navigation>li:hover, .first-item:hover 
 {
