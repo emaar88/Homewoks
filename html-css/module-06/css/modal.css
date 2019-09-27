@@ -43,22 +43,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee898a', end
 .facebook
 {
     border: none;
-    background: url(../img/facebook.png);
+    background: url(../img/icons/facebook.png);
 }
 
 .twitter
 {
     border: none;
-    background: url(../img/twitter.png);
+    background: url(../img/icons/twitter.png);
 }
 .pinterest
 {
     border: none;
-    background: url(../img/pinterest.png);
+    background: url(../img/icons/pinterest.png);
 }
 
 .instagram
 {
     border: none;
-    background: url(../img/instagram.png);
+    background: url(../img/icons/instagram.png);
 }
