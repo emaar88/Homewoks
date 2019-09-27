@@ -96,7 +96,7 @@ nav.navigation
 {
 	color:#f38181;
 }
-.list-navigation>li:hover, .first-item:hover 
+.list-navigation>li:hover 
 {
 	/* transition: all 200ms linear;
 	transform: scale(1.5); */
