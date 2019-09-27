@@ -84,6 +84,7 @@ nav.navigation
 {
 	display: block;
 	transition: all 200ms linear;
+	border-bottom: none;
 } 
 
 .list-navigation>li>a
