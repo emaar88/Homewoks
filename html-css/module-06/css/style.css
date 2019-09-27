@@ -83,7 +83,7 @@ nav.navigation
 .list-navigation li
 {
 	display: block;
-	transition: all 1200ms linear;
+	transition: all 200ms linear;
 	border-bottom: none;
 } 
 
