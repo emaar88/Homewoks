@@ -83,6 +83,7 @@ nav.navigation
 .list-navigation li
 {
 	display: block;
+	transition: all 200ms linear;
 } 
 
 .list-navigation>li>a
@@ -101,7 +102,6 @@ nav.navigation
 	/* transition: all 200ms linear;
 	transform: scale(1.5); */
 	border-bottom: 3px solid #f38181;
-	transition: all 200ms linear;
 }
 
 .list-navigation>li>a:hover .list-navigation>li>a::after
