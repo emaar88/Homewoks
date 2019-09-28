@@ -126,16 +126,17 @@ main
 }
 
 
-.service h2.cursive-header, .our-team h2.cursive-header
+.cursive-header
 {
+	display: block;
 	margin: 0;
-	text-align: center;
 	font-family: 'Kaushan Script', cursive;
+	text-transform: none;
 	font-weight: 400;
 	font-size: 24 px;
-	text-transform: none;
 	margin-bottom: 24px;
 }
+
 .service h2.normal-header, .our-team h2.normal-header
 {
 	margin: 0;
@@ -279,6 +280,12 @@ main
 {
 	display: none;
 }
+.our-team-parts:hover
+{
+	top: -10px;
+	left: -10px;
+	transition: all 200ms linear;
+}
 .our-team-parts:hover .modal-personal
 {
 	display: block;
@@ -304,9 +311,10 @@ main
 	font-style: italic;
 	color: #e0e0e0;
 }
-.footer-page a
+.footer-page button
 {
 	display: inline-block;
+	cursor: pointer;
 	width: 150px;
 	height: 40px;
 	line-height: 40px;
