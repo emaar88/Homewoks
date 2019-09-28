@@ -19,6 +19,8 @@ border-bottom: 10px solid #95e1d3;
 border-right:  10px solid #95e1d3;
 }
 
+}
+
 .clearfix::after {
     content: "";
     display: table;
