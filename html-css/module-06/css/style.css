@@ -280,10 +280,11 @@ main
 {
 	display: none;
 }
-.our-team-parts:hover .our-team-parts>img
+
+.our-team-parts:hover .mans
 {
-	top: -10px;
-	left: -10px;
+	margin-left: -10px;
+	margin-top: -10px;
 	transition: all 200ms linear;
 }
 .our-team-parts:hover .modal-personal
