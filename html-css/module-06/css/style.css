@@ -295,6 +295,7 @@ main
 
 .footer-page
 {
+	margin: 0;
 	height: 63px;
 }
 .footer-page .container
