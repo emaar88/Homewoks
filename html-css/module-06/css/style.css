@@ -280,7 +280,7 @@ main
 {
 	display: none;
 }
-.our-team-parts:hover
+.our-team-parts:hover .our-team-parts>img
 {
 	top: -10px;
 	left: -10px;
