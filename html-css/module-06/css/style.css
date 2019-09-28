@@ -100,21 +100,10 @@ nav.navigation
 }
 .list-navigation>li:hover 
 {
-	/* transition: all 200ms linear;
-	transform: scale(1.5); */
-	border-bottom: 3px solid #f38181;
+	box-shadow: 0px 3px 0px 0px #f38181;
+	
 }
 
-.list-navigation>li>a:hover .list-navigation>li>a::after
-{
-	display: block;
-	margin: auto;
-	margin-top: 12px;
-	content: "";
-	height: 3px;
-	width: 50px;
-	background-color: #f38181;
-}
 
 
 
