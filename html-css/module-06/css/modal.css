@@ -43,7 +43,7 @@ animation: img-appear 200ms linear;
 .icons
 {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 207px;
     margin-left: 78px;
@@ -55,7 +55,6 @@ animation: img-appear 200ms linear;
     background-color: #fce38a;
     cursor: pointer;
     display: block;
-    margin: 0;
     width: 55px; 
     height: 55px;
     transition: transform 200ms linear;
