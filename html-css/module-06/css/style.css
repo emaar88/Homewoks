@@ -117,9 +117,7 @@ nav.navigation
 }
 
 
-main
-{
-}
+
 .service
 {
 	padding-bottom: 105px;  /* Отступ первой секции */
@@ -169,9 +167,8 @@ main
 }
 .service-parts
 {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	display: block;
+	position: relative;
 	list-style-type: none;
 	width: 392px;
 	margin-bottom: 96px;
@@ -182,29 +179,69 @@ main
 	margin-bottom: 0;
 }
 
+.service-parts::before
+{
+	content: "";
+	display: block;
+	height: 36px;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.photo::before{
+	background-image: url(../img/photography.png);
+}
+.web::before{
+	background-image: url(../img/web-design.png);
+}
+.create::before{
+	background-image: url(../img/creativity.png);
+}
+.seo::before{
+	background-image: url(../img/seo.png);
+}
+.css-html::before{
+	background-image: url(../img/css-html.png);
+}
+.digital::before{
+	background-image: url(../img/digital.png);
+}
+
 .service-parts-name
 {
-	width: 392px;
-	height: 70px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 60px;
+	margin: 0;
 }
 .service-parts-name h3
 {
+	margin: 0;
 	font-size: 14px;
 	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 20px;
 }
 .service-parts-name p
 {
+	margin: 0;
 	font-family:  'Roboto', sans-serif;
 	font-size: 15px;
+	font-weight: 400;
+	color: #b6b6b6;
 }
 
 .our-team
 {
+	margin: 0;
 	padding-bottom: 86px;
 }
 
 .our-team h2
 {
+	margin: 0;
 	text-align: center;
 	
 }
@@ -283,10 +320,24 @@ main
 
 .our-team-parts:hover .mans
 {
-	margin-left: -10px;
-	margin-top: -10px;
-	transition: all 200ms linear;
+	/* margin-left: -10px;
+	margin-top: -10px; */
+	animation: img-appear 200ms linear;
 }
+
+@keyframes img-appear 
+{
+
+	0% 
+		{
+			transform: translateY(0);
+		}
+	100%
+	{
+		transform: translateY(-10px);
+	}	
+}
+
 .our-team-parts:hover .modal-personal
 {
 	display: block;
@@ -304,6 +355,10 @@ main
 	justify-content: space-between;
 	align-items: center;
 	border-top: 1px solid #e5e5e5;
+}
+.footer-page p
+{
+	margin: 0;
 }
 .footer-page input[type='text']
 {
