@@ -240,6 +240,14 @@ p.cursive-text
 	height: 212px;
 }
 
+.contacts textarea:invalid {
+	background: red; 
+}
+
+.contacts textarea:valid {
+	background: green;
+}
+
 .your-name input
 {
 	width: 455px;
