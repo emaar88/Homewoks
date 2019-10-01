@@ -93,7 +93,7 @@ nav.navigation
 	font-weight: bold;
 	transition: color 200ms linear;
 }
-.list-navigation>li>a:hover
+.list-navigation>li>a:hover, .list-navigation>li>a:focus
 {
 	color:#fed136;
 }
