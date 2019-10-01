@@ -250,10 +250,10 @@ p.cursive-text
 }
 
 .your-name input:invalid {
-    background: #fdd; 
+    background: red; 
    }
 .your-name input:valid {
-    background: #dfd;
+    background: green;
    }
 
 .your-name input:first-child
