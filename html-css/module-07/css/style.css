@@ -17,6 +17,7 @@ body {
 	
 	font-family: 'Montserrat', sans-serif;
 	background: white;
+	line-height: 1.2;
 }
 
 img
@@ -93,7 +94,7 @@ nav.navigation
 	font-weight: bold;
 	transition: color 200ms linear;
 }
-.list-navigation>li>a:hover, .list-navigation>li>a:focus
+.list-navigation>li>a:hover
 {
 	color:#fed136;
 }
@@ -193,7 +194,7 @@ p.cursive-text
 	background-color: #212121;
 	background-image: url(../img/map.png);
 	background-repeat: no-repeat;
-	background-position: right;
+	background-position: right 120px;
 }
 
 .contact-us h2
@@ -204,6 +205,7 @@ p.cursive-text
 	font-size: 40px;
 	text-align: center;
 	color: #ffffff;
+	text-transform: uppercase;
 }
 .contact-us p
 {
@@ -241,11 +243,13 @@ p.cursive-text
 }
 
 .contacts textarea:invalid {
-	background: red; 
+	border-color: red; 
+	border-width: 2px;
 }
 
 .contacts textarea:valid {
-	background: green;
+	border-color: green;
+	border-width: 2px;
 }
 
 .your-name input
@@ -258,10 +262,12 @@ p.cursive-text
 }
 
 .your-name input:invalid {
-    background: red; 
+	border-color: red; 
+	border-width: 2px;
    }
 .your-name input:valid {
-    background: green;
+	border-color: green;
+	border-width: 2px;
    }
 
 .your-name input:first-child
@@ -269,7 +275,7 @@ p.cursive-text
 margin: 0;	
 }
 
-a.button
+button
 {
 	display: block;
 	margin: auto;
@@ -281,6 +287,7 @@ a.button
 	text-align: center;
 	font-weight: bold;
 	color: #ffffff;
+	text-transform: uppercase;
 	-moz-border-radius: 3px;
 -webkit-border-radius: 3px;
 border-radius: 3px; /* border radius */
