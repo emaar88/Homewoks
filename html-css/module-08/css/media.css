@@ -139,7 +139,6 @@
     {
         display: flex;
         justify-content: space-between;
-        align-items: center;
         flex-wrap: wrap;
         margin: 0 auto;
         margin-bottom: 40px;
@@ -152,6 +151,22 @@
     .meet-partner:nth-last-child(-n+2)
     {
         margin-bottom: 0;
+    }
+    .person-1
+    {
+        order: 0;
+    }
+    .person-2
+    {
+        order: 2;
+    }
+    .person-3
+    {
+        order: 1;
+    }
+    .person-4
+    {
+        order: 3;
     }
 }
 @media (min-width: 1440px)
@@ -206,7 +221,6 @@
     {
         display: flex;
         justify-content: space-between;
-        align-items: center;
         width: 940px;
         margin: 0 auto;
         margin-bottom: 70px;
@@ -214,5 +228,25 @@
     .meet-partner
     {
         width:220px;
+    }
+    .meet-partner:nth-last-child(-n+4)
+    {
+        margin-bottom: 0;
+    }
+    .person-1
+    {
+        order: 0;
+    }
+    .person-2
+    {
+        order: 2;
+    }
+    .person-3
+    {
+        order: 1;
+    }
+    .person-4
+    {
+        order: 3;
     }
 }    
