@@ -128,6 +128,15 @@ background-color: #ff4d4f;
 	display: block;
 	list-style-type: none;
 }
+.meet-partner-name h3
+{
+	padding: 20px 0;
+}
+.meet-partner-name p
+{
+	font-family:  'Roboto', sans-serif;
+	color: #666666;
+}
 
 .meet-partner::before
 {
@@ -156,7 +165,6 @@ background-color: #ff4d4f;
 {
 	margin: 0;
 	font-size: 18px;
-	line-height: 75px;
 	letter-spacing: 2.5px;
 	font-weight: bold;
 	font-weight: 700;
