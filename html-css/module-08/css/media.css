@@ -1,0 +1,218 @@
+@media (max-width: 767px)
+{
+    body
+    {
+        background-image: url(../img/promo-mobile.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    .container
+    {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .head-module
+    {
+        padding-top: 20px;
+        padding-bottom: 29px;
+    }
+    .head-module a 
+    {
+        text-align: center;
+    }
+    nav.navigation 
+    {
+        margin: 0 auto;
+        margin-bottom: 103px;
+    }
+    .list-navigation
+    {
+        text-align: center;
+    }
+    .list-navigation li
+    {
+        display: inline-block;
+    }
+    .list-navigation>li>a
+    {
+        margin: 0 auto;
+        color: #fff;
+    }
+    h2.normal-header
+    {
+        margin-bottom: 10px;
+    }
+    .find-partner
+    {
+        width: 280px;
+    }
+    .holiday-dream
+    {
+        margin-bottom: 210px;
+    }
+    .holiday-dream h2
+    {
+        font-size: 30px;
+    }
+    .holiday-dream p
+    {
+        font-size: 18px;
+    }
+    .find-partner
+    {
+        width: 280px;
+    }
+    
+    .main 
+    {
+        padding-bottom: 58px;
+    }
+    .meet-partner-list
+    {
+        margin-bottom: 30px;
+    }
+    .meet-partner
+    {
+        width: 218px;
+        margin: 0 auto;
+        margin-bottom: 28px;
+    }
+    .meet-partner:last-child
+    {
+        margin-bottom: 0;  
+    }
+    .meet-partner-name h3
+    {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .meet-partner-name p
+    {
+        font-family:  'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1439px)
+{
+    body
+    {
+        background-image: url(../img/promo-tablet.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    .container
+    {
+        width: 670px;
+        margin: 0 auto;
+    }
+    .head-module
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav.navigation 
+    {
+        order: 2;
+    }
+    .head-module>a 
+    {
+        order: 1;
+    }
+    .list-navigation
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main 
+    {
+        padding-bottom: 40px;
+    }
+    .holiday-dream
+    {
+        margin-bottom: 305px;
+    }
+    .meet-partner-list
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .meet-partner
+    {
+        width:236px;
+        margin-bottom: 56px;
+    }
+    .meet-partner:nth-last-child(-n+2)
+    {
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 1440px)
+{
+    body
+    {
+        background-image: url(../img/promo.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    .container
+    {
+        width: 940px;
+        margin: 0 auto;
+    }
+    .head-module
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav.navigation 
+    {
+        order: 2;
+    }
+    .head-module>a 
+    {
+        order: 1;
+    }
+    .list-navigation
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+ 
+    .holiday-dream
+    {
+        margin-bottom: 300px;
+    }
+
+    .main 
+    {
+        padding-bottom: 70px;
+    }
+    .partners
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .meet-partner-list
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 940px;
+        margin: 0 auto;
+        margin-bottom: 70px;
+    }
+    .meet-partner
+    {
+        width:220px;
+    }
+}    
