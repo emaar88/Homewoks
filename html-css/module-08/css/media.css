@@ -1,11 +1,5 @@
-@media (max-width: 767px)
+@media (max-width: 669px)
 {
-    body
-    {
-        background-image: url(../img/promo-mobile.png);
-        background-repeat: no-repeat;
-        background-position: top center;
-    }
     .container
     {
         width: 320px;
@@ -14,16 +8,23 @@
     .head-module
     {
         padding-top: 20px;
-        padding-bottom: 29px;
+        padding-bottom: 138px;
+        background-image: url(../img/promo-mobile.png);
+        background-position: top center;
+        background-repeat: repeat-x;
     }
-    .head-module a 
+    .menu
+    {
+        margin-bottom: 38px;
+    }
+    .menu a 
     {
         text-align: center;
     }
     nav.navigation 
     {
         margin: 0 auto;
-        margin-bottom: 103px;
+        margin-bottom: 88px;
     }
     .list-navigation
     {
@@ -37,18 +38,6 @@
     {
         margin: 0 auto;
         color: #fff;
-    }
-    h2.normal-header
-    {
-        margin-bottom: 10px;
-    }
-    .find-partner
-    {
-        width: 280px;
-    }
-    .holiday-dream
-    {
-        margin-bottom: 210px;
     }
     .holiday-dream h2
     {
@@ -94,14 +83,8 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1439px)
+@media (min-width: 670px) and (max-width: 959px)
 {
-    body
-    {
-        background-image: url(../img/promo-tablet.png);
-        background-repeat: no-repeat;
-        background-position: top center;
-    }
     .container
     {
         width: 670px;
@@ -109,15 +92,22 @@
     }
     .head-module
     {
+        background-image: url(../img/promo-tablet.png);
+        background-position: top center;
+        background-repeat: repeat-x;
+    }
+    .menu
+    {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 152px;
     }
     nav.navigation 
     {
         order: 2;
     }
-    .head-module>a 
+    .menu>a 
     {
         order: 1;
     }
@@ -127,13 +117,13 @@
         justify-content: space-between;
         align-items: center;
     }
+    .holiday-dream
+    {
+        padding-bottom: 232px;
+    }
     .main 
     {
         padding-bottom: 40px;
-    }
-    .holiday-dream
-    {
-        margin-bottom: 305px;
     }
     .meet-partner-list
     {
@@ -169,14 +159,8 @@
         order: 3;
     }
 }
-@media (min-width: 1440px)
+@media (min-width: 960px)
 {
-    body
-    {
-        background-image: url(../img/promo.png);
-        background-repeat: no-repeat;
-        background-position: top center;
-    }
     .container
     {
         width: 940px;
@@ -184,15 +168,22 @@
     }
     .head-module
     {
+        background-image: url(../img/promo.png);
+        background-position: top center;
+        background-repeat: repeat-x;
+    }
+    .menu
+    {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 152px;
     }
     nav.navigation 
     {
         order: 2;
     }
-    .head-module>a 
+    .menu>a 
     {
         order: 1;
     }
@@ -202,12 +193,10 @@
         justify-content: space-between;
         align-items: center;
     }
- 
     .holiday-dream
     {
-        margin-bottom: 300px;
+        padding-bottom: 232px;
     }
-
     .main 
     {
         padding-bottom: 70px;
