@@ -1,0 +1,207 @@
+@media (max-width: 767px)
+{
+    .head-module
+    {
+        padding-top: 20px;
+        padding-bottom: 138px;
+        background-image: url(../img/promo-mobile.png);
+        background-position: top center;
+        background-repeat: repeat-x;
+    }
+    .menu
+    {
+        margin-bottom: 38px;
+    }
+    .menu a 
+    {
+        text-align: center;
+    }
+    nav.navigation 
+    {
+        margin: 0 auto;
+        margin-bottom: 88px;
+    }
+    .list-navigation
+    {
+        text-align: center;
+    }
+    .list-navigation li
+    {
+        display: inline-block;
+    }
+    .list-navigation>li>a
+    {
+        margin: 0 auto;
+        color: #fff;
+    }
+    .holiday-dream h2
+    {
+        font-size: 30px;
+    }
+    .holiday-dream p
+    {
+        font-size: 18px;
+    }
+    .find-partner
+    {
+        width: 280px;
+    }
+    
+    .main 
+    {
+        padding-bottom: 58px;
+    }
+    .meet-partner-list
+    {
+        margin-bottom: 30px;
+    }
+    .meet-partner-name h3
+    {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .meet-partner-name p
+    {
+        font-family:  'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+        .cards
+    {
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .head-module
+    {
+        background-image: url(../img/promo-tablet.png);
+        background-position: top center;
+        background-repeat: repeat-x;
+    }
+    .menu
+    {
+        margin-bottom: 152px;
+    }
+    nav.navigation 
+    {
+        order: 2;
+    }
+    .menu>a 
+    {
+        order: 1;
+    }
+    .list-navigation
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .holiday-dream
+    {
+        padding-bottom: 232px;
+    }
+    .main 
+    {
+        padding-bottom: 40px;
+    }
+    .meet-partner-list
+    {
+        margin-bottom: 40px;
+    }
+
+    .person-1
+    {
+        order: 0;
+    }
+    .person-2
+    {
+        order: 2;
+    }
+    .person-3
+    {
+        order: 1;
+    }
+    .person-4
+    {
+        order: 3;
+    }
+    .cards
+    {
+        margin-bottom: 40px;
+    }
+}
+@media (min-width: 992px)
+{
+    .head-module
+    {
+        background-image: url(../img/promo.png);
+        background-position: top center;
+        background-repeat: repeat-x;
+    }
+    .menu
+    {
+        margin-bottom: 152px;
+    }
+    nav.navigation 
+    {
+        order: 2;
+    }
+    .urla
+    {
+        order: 1;
+        text-align: left;
+    }
+    .list-navigation
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .holiday-dream
+    {
+        padding-bottom: 232px;
+    }
+    .main 
+    {
+        padding-bottom: 70px;
+    }
+    .partners
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .meet-partner-list
+    {
+        margin-bottom: 70px;
+    }
+    .meet-partner
+    {
+        width:220px;
+    }
+    .meet-partner:nth-last-child(-n+4)
+    {
+        margin-bottom: 0;
+    }
+    .person-1
+    {
+        order: 0;
+    }
+    .person-2
+    {
+        order: 2;
+    }
+    .person-3
+    {
+        order: 1;
+    }
+    .person-4
+    {
+        order: 3;
+    }
+    .cards
+    {
+        margin-bottom: 40px;
+    }
+}    
