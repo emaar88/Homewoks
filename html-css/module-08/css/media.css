@@ -1,0 +1,241 @@
+@media (max-width: 669px)
+{
+    .container
+    {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .head-module
+    {
+        padding-top: 20px;
+        padding-bottom: 138px;
+        background-image: url(../img/promo-mobile.png);
+        background-position: top center;
+        background-repeat: repeat-x;
+    }
+    .menu
+    {
+        margin-bottom: 38px;
+    }
+    .menu a 
+    {
+        text-align: center;
+    }
+    nav.navigation 
+    {
+        margin: 0 auto;
+        margin-bottom: 88px;
+    }
+    .list-navigation
+    {
+        text-align: center;
+    }
+    .list-navigation li
+    {
+        display: inline-block;
+    }
+    .list-navigation>li>a
+    {
+        margin: 0 auto;
+        color: #fff;
+    }
+    .holiday-dream h2
+    {
+        font-size: 30px;
+    }
+    .holiday-dream p
+    {
+        font-size: 18px;
+    }
+    .find-partner
+    {
+        width: 280px;
+    }
+    
+    .main 
+    {
+        padding-bottom: 58px;
+    }
+    .meet-partner-list
+    {
+        margin-bottom: 30px;
+    }
+    .meet-partner
+    {
+        width: 218px;
+        margin: 0 auto;
+        margin-bottom: 28px;
+    }
+    .meet-partner:last-child
+    {
+        margin-bottom: 0;  
+    }
+    .meet-partner-name h3
+    {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .meet-partner-name p
+    {
+        font-family:  'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 670px) and (max-width: 959px)
+{
+    .container
+    {
+        width: 670px;
+        margin: 0 auto;
+    }
+    .head-module
+    {
+        background-image: url(../img/promo-tablet.png);
+        background-position: top center;
+        background-repeat: repeat-x;
+    }
+    .menu
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 152px;
+    }
+    nav.navigation 
+    {
+        order: 2;
+    }
+    .menu>a 
+    {
+        order: 1;
+    }
+    .list-navigation
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .holiday-dream
+    {
+        padding-bottom: 232px;
+    }
+    .main 
+    {
+        padding-bottom: 40px;
+    }
+    .meet-partner-list
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .meet-partner
+    {
+        width:236px;
+        margin-bottom: 56px;
+    }
+    .meet-partner:nth-last-child(-n+2)
+    {
+        margin-bottom: 0;
+    }
+    .person-1
+    {
+        order: 0;
+    }
+    .person-2
+    {
+        order: 2;
+    }
+    .person-3
+    {
+        order: 1;
+    }
+    .person-4
+    {
+        order: 3;
+    }
+}
+@media (min-width: 960px)
+{
+    .container
+    {
+        width: 940px;
+        margin: 0 auto;
+    }
+    .head-module
+    {
+        background-image: url(../img/promo.png);
+        background-position: top center;
+        background-repeat: repeat-x;
+    }
+    .menu
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 152px;
+    }
+    nav.navigation 
+    {
+        order: 2;
+    }
+    .menu>a 
+    {
+        order: 1;
+    }
+    .list-navigation
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .holiday-dream
+    {
+        padding-bottom: 232px;
+    }
+    .main 
+    {
+        padding-bottom: 70px;
+    }
+    .partners
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .meet-partner-list
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 940px;
+        margin: 0 auto;
+        margin-bottom: 70px;
+    }
+    .meet-partner
+    {
+        width:220px;
+    }
+    .meet-partner:nth-last-child(-n+4)
+    {
+        margin-bottom: 0;
+    }
+    .person-1
+    {
+        order: 0;
+    }
+    .person-2
+    {
+        order: 2;
+    }
+    .person-3
+    {
+        order: 1;
+    }
+    .person-4
+    {
+        order: 3;
+    }
+}    
