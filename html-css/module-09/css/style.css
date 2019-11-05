@@ -37,11 +37,13 @@ a{
 	padding-top: 29px;
 	margin-bottom: 72px;
 }
+
 .head-menu
 {
 	display: flex;
 	justify-content: space-between;
 }
+
 .urla 
 {
 	margin: 0;
@@ -63,6 +65,7 @@ nav.navigation
 	margin: 0;
 	padding: 0;
 	width: 160px;
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
