@@ -69,7 +69,6 @@
     .else-person
     {
         margin-top: 32px;
-
     }
 }
 
@@ -88,7 +87,6 @@
     nav.navigation 
     {
         
-        order: 2;
     }
     .menu>a 
     {
@@ -99,6 +97,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        order: 2;
     }
     .holiday-dream
     {
