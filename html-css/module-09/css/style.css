@@ -1,0 +1,230 @@
+html
+{
+	box-sizing: border-box;
+
+}
+
+*::before, 
+*::after
+{
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+	font-family: 'Montserrat', sans-serif;
+	background: white;
+	line-height: 1.2;
+}
+
+img
+{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+.head-module
+{
+	margin: 0;
+	padding: 0;
+	padding-top: 29px;
+	margin-bottom: 72px;
+}
+.head-menu
+{
+	display: flex;
+	justify-content: space-between;
+}
+.urla 
+{
+	margin: 0;
+	padding: 0;
+	display: block;
+	padding: 10px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+a.urla:hover
+{
+	color: #ff4d4f;
+	text-decoration: none;
+} 
+nav.navigation
+{
+	margin: 0;
+	padding: 0;
+	width: 160px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.list-navigation
+{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	width: 160px;
+	display: flex;
+}
+
+.list-navigation li
+{
+	margin: 0;
+	padding: 0;
+	display: block;
+	transition: all 200ms linear;
+	width: 50%;
+	text-align: center;
+} 
+
+.list-navigation>li>a
+{
+	display: block;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	transition: color 200ms linear;
+	-moz-border-radius: 18px;
+-webkit-border-radius: 18px;
+}
+.list-navigation>li>a:hover
+{
+	box-shadow: 0px 0px 0px 2px #ffffff;
+	text-transform: none;
+}
+h2.normal-header
+{
+	margin: 0;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 35px;
+}
+
+.holiday-dream h2
+    {
+		margin: 0;
+		padding: 0;
+		font-size: 52px;
+		margin-bottom: 16px;
+        font-weight: bold;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+	}
+.holiday-dream p
+{
+	margin: 0;
+	padding: 0;
+	font-family:  'Roboto', sans-serif;
+	font-size: 24px;
+	margin-bottom: 38px;
+	color: #fff;
+	text-align: center;
+}	
+.find-partner
+    {
+		margin: 0;
+		padding: 0;
+        display: block;
+        width: 225px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 auto;
+        text-transform: none;
+        color: white;
+        text-align: center;
+        border-radius: 20px; /* border radius */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+background-color: #ff4d4f;
+	}
+	.find-partner:hover	
+	{
+		background-color: white;
+		color: #ff4d4f;
+		text-decoration: none;
+	}
+
+.meet-partner-list
+{
+	padding: 0;
+	margin: 0;
+}
+
+.meet-partner-name h3
+{
+	margin: 0;
+	padding: 0;
+	padding: 20px 0;
+}
+.meet-partner-name p
+{
+	margin: 0;
+	padding: 0;
+	font-family:  'Roboto', sans-serif;
+	color: #666666;
+}
+
+.meet-partner-name>img
+{
+	margin: 0 auto;
+}
+
+.meet-partner-name h3
+{
+	margin: 0;
+	font-size: 18px;
+	letter-spacing: 2.5px;
+	font-weight: bold;
+	font-weight: 700;
+	text-align: center;
+}
+.meet-partner-name p
+{
+	margin: 0;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #b6b6b6;
+	text-align: center;
+}
+.else-person
+{
+	display: block;
+	margin: 0 auto;
+	width: 188px;
+height: 36px;
+border: 2px solid #ff4d4f; /* stroke */
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px; /* border radius */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+text-align: center;
+	text-transform: none;
+	background-clip: padding-box; /* prevents bg color from leaking outside the border */
+background-color: #fff; /* layer fill content */
+line-height: 36px;
+color: #ff4d4f;
+font-weight: bold;
+font-size: 14px;
+order: 4;
+}
+
+a.else-person:hover
+{
+background-color: #ff4d4f;
+color: white;
+text-decoration: none;
+}
