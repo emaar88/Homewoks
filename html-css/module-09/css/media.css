@@ -16,6 +16,11 @@
     {
         text-align: center;
     }
+    .head-menu
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
     nav.navigation 
     {
         margin: 0 auto;
@@ -86,7 +91,7 @@
     }
     nav.navigation 
     {
-        
+        order: 2;
     }
     .menu>a 
     {
@@ -97,7 +102,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        order: 2;
     }
     .holiday-dream
     {
