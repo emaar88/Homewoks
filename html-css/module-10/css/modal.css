@@ -91,4 +91,5 @@ animation: img-appear 200ms linear;
 {
     width: 32px;
     height: 32px;
+    margin: auto;
 }
