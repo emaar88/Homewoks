@@ -65,28 +65,17 @@ animation: img-appear 200ms linear;
  transform: scale(1.15);
 }
 
-.facebook
+.team_social
 {
     border: none;
-}
-
-.twitter
-{
-    border: none;
-}
-.pinterest
-{
-    border: none;
-}
-
-.instagram
-{
-    border: none;
+    position: relative;
 }
 .team__icon
 {
     width: 32px;
     height: 32px;
     display: block;
-    margin: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
