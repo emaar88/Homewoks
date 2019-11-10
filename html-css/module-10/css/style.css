@@ -385,8 +385,6 @@ cursor: pointer;
 
 .our-team__our-team-parts:hover .mans
 {
-	/* margin-left: -10px;
-	margin-top: -10px; */
 	animation: img-appear 200ms linear;
 }
 
