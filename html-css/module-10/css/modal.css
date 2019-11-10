@@ -87,3 +87,8 @@ animation: img-appear 200ms linear;
     border: none;
  /*   background: url(../img/icons/instagram-min.png);*/
 }
+.team__icon
+{
+    width: 32px;
+    height: 32px;
+}
