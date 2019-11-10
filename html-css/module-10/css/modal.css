@@ -1,0 +1,89 @@
+.modal-personal
+{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    display: none;
+    
+
+    width: 380px;
+height: 470px;
+
+
+background: rgb(238,137,138); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(238,137,138,0.85) 0%, rgba(252,227,138,0.85) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(238,137,138,0.85) 0%,rgba(252,227,138,0.85) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(238,137,138,0.85) 0%,rgba(252,227,138,0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee898a', endColorstr='#fce38a',GradientType=0 ); /* IE6-9 */
+border-bottom: 10px solid #95e1d3;
+border-right:  10px solid #95e1d3;
+animation: img-appear 200ms linear;
+
+}
+
+@keyframes img-appear 
+{
+
+	0% 
+		{
+			transform: translateY(0);
+		}
+	100%
+	{
+		transform: translateY(-10px);
+	}	
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.icons
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 207px;
+    margin-left: 78px;
+    width: 225px;
+}
+
+.icons a{
+    
+    background-color: #fce38a;
+    cursor: pointer;
+    display: block;
+    width: 55px; 
+    height: 55px;
+    transition: transform 200ms linear;
+}
+.icons a:hover
+{
+ background-color: #95e1d3;
+ transform: scale(1.15);
+}
+
+.facebook
+{
+    border: none;
+    background: url(../img/icons/facebook-min.png);
+}
+
+.twitter
+{
+    border: none;
+    background: url(../img/icons/twitter-min.png);
+}
+.pinterest
+{
+    border: none;
+    background: url(../img/icons/pinterest-min.png);
+}
+
+.instagram
+{
+    border: none;
+    background: url(../img/icons/instagram-min.png);
+}

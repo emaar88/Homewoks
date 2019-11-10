@@ -16,6 +16,11 @@
     {
         text-align: center;
     }
+    .head-menu
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
     nav.navigation 
     {
         margin: 0 auto;
@@ -51,10 +56,14 @@
     {
         padding-bottom: 58px;
     }
-    .meet-partner-list
-    {
-        margin-bottom: 30px;
-    }
+   [class*="person-"]:not(:last-child)
+   {
+       margin-bottom: 30px;
+   }
+   [class*="person-"]:last-child
+   {
+       margin-bottom: 30px;
+   }
     .meet-partner-name h3
     {
         font-size: 14px;
@@ -65,10 +74,6 @@
         font-family:  'Roboto', sans-serif;
         font-size: 14px;
         font-weight: 400;
-    }
-        .cards
-    {
-        margin-bottom: 40px;
     }
 }
 
@@ -106,7 +111,11 @@
     {
         padding-bottom: 40px;
     }
-    .meet-partner-list
+    [class*="person-"]:not(:nth-last-child(-n+2))
+    {
+        margin-bottom: 60px;
+    }
+    [class*="person-"]:nth-last-child(-n+2)
     {
         margin-bottom: 40px;
     }
@@ -126,10 +135,6 @@
     .person-4
     {
         order: 3;
-    }
-    .cards
-    {
-        margin-bottom: 40px;
     }
 }
 @media (min-width: 992px)
@@ -172,9 +177,9 @@
         margin: 0;
         padding: 0;
     }
-    .meet-partner-list
+    [class*="person-"]
     {
-        margin-bottom: 70px;
+        margin-bottom: 40px;
     }
     .meet-partner
     {
@@ -199,9 +204,5 @@
     .person-4
     {
         order: 3;
-    }
-    .cards
-    {
-        margin-bottom: 40px;
-    }
+    }   
 }    
