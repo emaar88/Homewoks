@@ -68,22 +68,22 @@ animation: img-appear 200ms linear;
 .facebook
 {
     border: none;
-    background: url(../img/icons/facebook-min.png);
+ /*   background: url(../img/icons/facebook-min.png);*/
 }
 
 .twitter
 {
     border: none;
-    background: url(../img/icons/twitter-min.png);
+ /*   background: url(../img/icons/twitter-min.png);*/
 }
 .pinterest
 {
     border: none;
-    background: url(../img/icons/pinterest-min.png);
+ /*   background: url(../img/icons/pinterest-min.png);*/
 }
 
 .instagram
 {
     border: none;
-    background: url(../img/icons/instagram-min.png);
+ /*   background: url(../img/icons/instagram-min.png);*/
 }
