@@ -40,7 +40,7 @@ animation: img-appear 200ms linear;
     clear: both;
   }
 
-.icons
+.modal-personal__icons
 {
     display: flex;
     justify-content: space-evenly;
@@ -50,7 +50,7 @@ animation: img-appear 200ms linear;
     width: 225px;
 }
 
-.icons a{
+.modal-personal__icons a{
     
     background-color: #fce38a;
     cursor: pointer;
@@ -59,9 +59,12 @@ animation: img-appear 200ms linear;
     height: 55px;
     transition: transform 200ms linear;
 }
-.icons a:hover
+.team_social:hover
 {
  background-color: var(--rose-color);
+}
+.team_social:hover .team__icon{
+    fill: var(--main-color);
 }
 
 .team_social
