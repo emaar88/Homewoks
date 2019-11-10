@@ -321,7 +321,7 @@ cursor: pointer;
 	background-repeat: no-repeat;
 }
 
-.our-team>.our-team-description
+.our-team__our-team-description
 {
 	margin: auto;
 	width: 980px;
@@ -332,7 +332,7 @@ cursor: pointer;
 	text-align: center;
 }
 
-.our-team-list
+.our-team__our-team-list
 {
 	display: flex;
 	align-items: center;
@@ -341,22 +341,22 @@ cursor: pointer;
 	margin: 0;
 }
 
-.our-team-parts 
+.our-team__our-team-parts 
 {
 	list-style-type: none;
 	width: 380px;
 	position: relative;
 }
-.our-team-parts:last-child
+.our-team__our-team-parts:last-child
 {
 	margin-right: 0;
 } 
-.our-team-parts img
+.our-team__our-team-parts img
 {
 	margin-bottom: 15px; /* отступ от картинок до подписей*/
 }
 
-.our-team-parts h3
+.our-team__our-team-parts h3
 {
 	margin: 0;
 	padding: 0;
@@ -365,7 +365,7 @@ cursor: pointer;
 	text-transform: uppercase;
 	margin-bottom: 16px;
 }
-.our-team-parts p
+.our-team__our-team-parts p
 {
 	margin: 0;
     padding: 0;
@@ -383,7 +383,7 @@ cursor: pointer;
 	display: none;
 }
 
-.our-team-parts:hover .mans
+.our-team__our-team-parts:hover .mans
 {
 	/* margin-left: -10px;
 	margin-top: -10px; */
@@ -403,7 +403,7 @@ cursor: pointer;
 	}	
 }
 
-.our-team-parts:hover .modal-personal
+.our-team__our-team-parts:hover .modal-personal
 {
 	display: block;
 }
