@@ -50,7 +50,7 @@ animation: img-appear 200ms linear;
     width: 225px;
 }
 
-.modal-personal__icons a{
+.team_social{
     
     background-color: #fce38a;
     cursor: pointer;
