@@ -248,7 +248,7 @@ cursor: pointer;
 	content: "";
 	display: block;
 	height: 36px;
-	background-color: white;
+	background-color: var(--main-color);
 	background-repeat: no-repeat;
 	background-position: left;
 }
@@ -345,6 +345,7 @@ cursor: pointer;
 	list-style-type: none;
 	width: 380px;
 	position: relative;
+	transition: all 2s ease-in-out;
 }
 .our-team__our-team-parts:last-child
 {
@@ -415,6 +416,7 @@ cursor: pointer;
 	width: 380px;
 	height: 470px;
 	background-color: var(--turquise-color);
+	z-index: 0;
 }
 
 
