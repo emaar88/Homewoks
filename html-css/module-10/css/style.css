@@ -350,9 +350,9 @@ cursor: pointer;
 {
 	margin-right: 0;
 } 
-.our-team__our-team-parts img
+.about-mans
 {
-	margin-bottom: 15px; /* отступ от картинок до подписей*/
+	padding-top: 15px; /* отступ от картинок до подписей*/
 }
 
 .our-team__our-team-parts h3
@@ -388,36 +388,35 @@ cursor: pointer;
 	height: 470px;
 }
 
-.our-team__our-team-parts:hover .mans
+
+
+.our-team__our-team-parts:hover .mans__image
 {
-	animation: img-appear 200ms linear;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(-10px, -10px);
+	z-index: 1;
 }
-
-@keyframes img-appear 
-{
-
-	0% 
-		{
-			transform: translateY(0px);
-		}
-	100%
-	{
-		transform: translateY(-10px);
-	}	
-}
-
 .our-team__our-team-parts:hover .modal-personal
 {
 	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
 }
+
+
+
+
 .our-team__our-team-parts:hover .fill-around
 {
+	width: 380px;
+	height: 470px;
 	background-color: var(--turquise-color);
 }
-.our-team__our-team-parts:hover .mans
-{
-	transform: translateY(-10px);
-}
+
 
 .footer-page
 {
