@@ -383,6 +383,11 @@ cursor: pointer;
 	display: none;
 }
 
+.mans
+{
+	width: 380px;
+	height: 470px;
+}
 .our-team__our-team-parts:hover .mans
 {
 	animation: img-appear 200ms linear;
