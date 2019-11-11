@@ -35,7 +35,7 @@ animation: img-appear 200ms linear;
 		}
 	100%
 	{
-		transform: translateY(-10px);
+		transform: translateY(-120px);
 	}	
 }
 
