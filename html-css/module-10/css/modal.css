@@ -68,7 +68,7 @@ animation: img-appear 200ms linear;
  background-color: var(--rose-color);
 }
 .team_social:hover .icons_social__path{
-    fill: #fff;
+    fill: #fff !important;
 }
 
 .team_social
