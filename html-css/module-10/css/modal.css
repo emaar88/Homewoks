@@ -1,8 +1,8 @@
-
 :root{
 	--main-color: white;
 	--hover-color: #fce38a;
-	--rose-color: #f38181;
+    --rose-color: #f38181;
+    --turquise-color: #95e1d3;
 }
 .modal-personal
 {
@@ -21,10 +21,10 @@ background: -moz-linear-gradient(top, rgba(238,137,138,0.85) 0%, rgba(252,227,13
 background: -webkit-linear-gradient(top, rgba(238,137,138,0.85) 0%,rgba(252,227,138,0.85) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, rgba(238,137,138,0.85) 0%,rgba(252,227,138,0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee898a', endColorstr='#fce38a',GradientType=0 ); /* IE6-9 */
-border-bottom: 10px solid #95e1d3;
+border-bottom: 10px solid var(--hover-color);
 border-right:  10px solid #95e1d3;
 animation: img-appear 200ms linear;
-
+transform: translate(-10px, -10px);
 }
 
 @keyframes img-appear 
@@ -40,11 +40,6 @@ animation: img-appear 200ms linear;
 	}	
 }
 
-.modal-personal{
-    width: 380px;
-    height: 470px;
-}  
-
 .modal-personal__icons
 {
     display: flex;
@@ -57,7 +52,7 @@ animation: img-appear 200ms linear;
 
 .team_social{
     
-    background-color: #fce38a;
+    background-color: var(--hover-color);
     cursor: pointer;
     display: block;
     width: 55px; 
@@ -69,7 +64,7 @@ animation: img-appear 200ms linear;
 {
  background-color: var(--rose-color);
 }
-.team_social:hover .icons_social__path{
+.team_social:hover .team__icon{
     fill: var(--main-color);
 }
 

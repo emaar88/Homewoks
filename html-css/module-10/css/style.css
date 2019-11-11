@@ -1,8 +1,8 @@
-
 :root{
 	--main-color: white;
 	--hover-color: #fce38a;
 	--rose-color: #f38181;
+	--turquise-color: #95e1d3;
 }
 
 html
@@ -218,7 +218,7 @@ cursor: pointer;
 	content: "";
 	height: 3px;
 	width: 60px;
-	background-color:#f38181;
+	background-color: var(--rose-color);
 }
 .service-list
 {
@@ -315,7 +315,7 @@ cursor: pointer;
 	content: "";
 	height: 3px;
 	width: 60px;
-	background-color:#f38181;
+	background-color:var(--rose-color);
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -387,6 +387,7 @@ cursor: pointer;
 	width: 380px;
 	height: 470px;
 }
+
 .our-team__our-team-parts:hover .mans
 {
 	animation: img-appear 200ms linear;
@@ -397,11 +398,11 @@ cursor: pointer;
 
 	0% 
 		{
-			transform: translateY(-10px);
+			transform: translateY(0px);
 		}
 	100%
 	{
-		transform: translateY(-20px);
+		transform: translateY(-10px);
 	}	
 }
 
@@ -409,7 +410,14 @@ cursor: pointer;
 {
 	display: block;
 }
-
+.our-team__our-team-parts:hover .fill-around
+{
+	background-color: var(--turquise-color);
+}
+.our-team__our-team-parts:hover .mans
+{
+	transform: translateY(-10px);
+}
 
 .footer-page
 {
@@ -447,11 +455,11 @@ cursor: pointer;
 	background: #95e1d3;
 	border: none;
 	border-radius: 2px;
-	color: white;
+	color: var(--main-color);
 }
 .footer-page span
 {
-	color: #f38181;
+	color: var(--rose-color);
 }
 input[type="text"]::placeholder
 {
