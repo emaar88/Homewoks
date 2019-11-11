@@ -1,3 +1,4 @@
+
 :root{
 	--main-color: white;
 	--hover-color: #fce38a;
@@ -386,7 +387,6 @@ cursor: pointer;
 	width: 380px;
 	height: 470px;
 }
-
 .our-team__our-team-parts:hover .mans
 {
 	animation: img-appear 200ms linear;
@@ -409,14 +409,7 @@ cursor: pointer;
 {
 	display: block;
 }
-.our-team__our-team-parts:hover .fill-around
-{
-	background-color: #95e1d3;
-}
-.our-team__our-team-parts:hover .mans
-{
-	transform: translateY(-10px);
-}
+
 
 .footer-page
 {

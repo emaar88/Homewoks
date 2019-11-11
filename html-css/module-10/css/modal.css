@@ -1,3 +1,4 @@
+
 :root{
 	--main-color: white;
 	--hover-color: #fce38a;
@@ -23,7 +24,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee898a', end
 border-bottom: 10px solid #95e1d3;
 border-right:  10px solid #95e1d3;
 animation: img-appear 200ms linear;
-transform: translate(-10px, -10px);
+
 }
 
 @keyframes img-appear 
@@ -38,6 +39,11 @@ transform: translate(-10px, -10px);
 		transform: translateY(-10px);
 	}	
 }
+
+.modal-personal{
+    width: 380px;
+    height: 470px;
+}  
 
 .modal-personal__icons
 {
