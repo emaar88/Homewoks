@@ -34,11 +34,10 @@ animation: img-appear 200ms linear;
 	}	
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.modal-personal{
+    width: 380px;
+    height: 470px;
+}  
 
 .modal-personal__icons
 {
