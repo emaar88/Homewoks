@@ -62,13 +62,14 @@ animation: img-appear 200ms linear;
     width: 55px; 
     height: 55px;
     transition: transform 200ms linear;
+    fill: var(--rose-color);
 }
 .team_social:hover
 {
  background-color: var(--rose-color);
 }
 .team_social:hover .icons_social__path{
-    fill: #fff !important;
+    fill: var(--main-color);
 }
 
 .team_social
