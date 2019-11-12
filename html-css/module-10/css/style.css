@@ -399,7 +399,7 @@ cursor: pointer;
 	top: 0;
 	left: 0;
 	transform: translate(-10px, -10px);
-	animation: img-appear 1s linear;
+	animation: img-appear 500ms ease-in-out;
 	z-index: 1;
 }
 .our-team__our-team-parts:hover .modal-personal
