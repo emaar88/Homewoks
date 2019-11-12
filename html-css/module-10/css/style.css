@@ -499,7 +499,7 @@ cursor: pointer;
 	width: 230px;
 	height: 40px;
 	font-style: italic;
-	color: #e0e0e0;
+	color: var(--text-color);
 }
 .footer-page__send
 {
@@ -522,25 +522,20 @@ cursor: pointer;
 .footer-page__email::-webkit-input-placeholder
 {
 	padding: 15px;
-	color: var(--text-color);
 }
 .footer-page__email::-moz-placeholder
 {
 	padding: 15px;
-	color: var(--text-color);
 }
 .footer-page__email:-ms-input-placeholder
 {
 	padding: 15px;
-	color: var(--text-color);
 }
 .footer-page__email::-ms-input-placeholder
 {
 	padding: 15px;
-	color: var(--text-color);
 }
 .footer-page__email::placeholder
 {
 	padding: 15px;
-	color: var(--text-color);
 }
