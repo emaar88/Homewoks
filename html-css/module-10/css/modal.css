@@ -1,3 +1,9 @@
+:root{
+	--main-color: white;
+	--hover-color: #fce38a;
+    --rose-color: #f38181;
+    --turquise-color: #95e1d3;
+}
 .modal-personal
 {
     position: absolute;
@@ -24,21 +30,15 @@ transform: translate(-10px, -10px);
 
 	0% 
 		{
-			transform: translateY(0);
+			transform: translate(0, 0);
 		}
 	100%
 	{
-		transform: translateY(-10px);
+		transform: translate(-10px, -10px);
 	}	
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-.icons
+.modal-personal__icons
 {
     display: flex;
     justify-content: space-evenly;
@@ -48,40 +48,35 @@ transform: translate(-10px, -10px);
     width: 225px;
 }
 
-.icons a{
+.team_social{
     
-    background-color: #fce38a;
+    background-color: var(--hover-color);
     cursor: pointer;
     display: block;
     width: 55px; 
     height: 55px;
     transition: transform 200ms linear;
+    fill: var(--rose-color);
 }
-.icons a:hover
+.team_social:hover
 {
- background-color: #95e1d3;
- transform: scale(1.15);
+ background-color: var(--rose-color);
 }
-
-.facebook
-{
-    border: none;
-    background: url(../img/icons/facebook.png);
+.team_social:hover .team__icon{
+    fill: var(--main-color);
 }
 
-.twitter
+.team_social
 {
     border: none;
-    background: url(../img/icons/twitter.png);
+    position: relative;
 }
-.pinterest
+.team__icon
 {
-    border: none;
-    background: url(../img/icons/pinterest.png);
-}
-
-.instagram
-{
-    border: none;
-    background: url(../img/icons/instagram.png);
+    width: 32px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }

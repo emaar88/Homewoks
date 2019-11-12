@@ -56,10 +56,14 @@
     {
         padding-bottom: 58px;
     }
-    .meet-partner-list
-    {
-        margin-bottom: 30px;
-    }
+   [class*="person-"]:not(:last-child)
+   {
+       margin-bottom: 30px;
+   }
+   [class*="person-"]:last-child
+   {
+       margin-bottom: 30px;
+   }
     .meet-partner-name h3
     {
         font-size: 14px;
@@ -70,10 +74,6 @@
         font-family:  'Roboto', sans-serif;
         font-size: 14px;
         font-weight: 400;
-    }
-    .else-person
-    {
-        margin-top: 32px;
     }
 }
 
@@ -111,7 +111,11 @@
     {
         padding-bottom: 40px;
     }
-    .meet-partner-list
+    [class*="person-"]:not(:nth-last-child(-n+2))
+    {
+        margin-bottom: 60px;
+    }
+    [class*="person-"]:nth-last-child(-n+2)
     {
         margin-bottom: 40px;
     }
@@ -131,10 +135,6 @@
     .person-4
     {
         order: 3;
-    }
-    .else-person
-    {
-        margin-top: 40px;
     }
 }
 @media (min-width: 992px)
@@ -177,9 +177,9 @@
         margin: 0;
         padding: 0;
     }
-    .meet-partner-list
+    [class*="person-"]
     {
-        margin-bottom: 70px;
+        margin-bottom: 40px;
     }
     .meet-partner
     {
@@ -204,9 +204,5 @@
     .person-4
     {
         order: 3;
-    }
-    .else-person
-    {
-        margin-top: 40px;
-    }
+    }   
 }    
