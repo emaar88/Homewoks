@@ -348,7 +348,6 @@ cursor: pointer;
 	list-style-type: none;
 	width: 380px;
 	position: relative;
-	/* transition: all 2s ease-in-out; */
 }
 .our-team__our-team-parts:last-child
 {
@@ -400,7 +399,7 @@ cursor: pointer;
 	top: 0;
 	left: 0;
 	transform: translate(-10px, -10px);
-	animation: img-appear 200ms linear;
+	animation: img-appear 2s linear;
 	z-index: 1;
 }
 .our-team__our-team-parts:hover .modal-personal
