@@ -111,11 +111,12 @@
     {
         padding-bottom: 40px;
     }
-    [class*="person-"]:not(:nth-last-child(-n+2))
+
+    [class*="person-"]:not(:nth-last-child(2n+1))
     {
         margin-bottom: 60px;
     }
-    [class*="person-"]:nth-last-child(-n+2)
+    [class*="person-"]:nth-last-child(2n+1)
     {
         margin-bottom: 40px;
     }
