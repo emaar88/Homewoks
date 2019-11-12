@@ -293,22 +293,22 @@ cursor: pointer;
 	background-position: left;
 }
 
-.service__item_photo::before{
+.service__item--photo::before{
 	background-image: url(../img/photography-min.png);
 }
-.service__item_web::before{
+.service__item--web::before{
 	background-image: url(../img/web-design-min.png);
 }
-.service__item_create::before{
+.service__item--create::before{
 	background-image: url(../img/creativity-min.png);
 }
-.service__item_seo::before{
+.service__item--seo::before{
 	background-image: url(../img/seo-min.png);
 }
-.service__item_css-html::before{
+.service__item--css-html::before{
 	background-image: url(../img/css-html-min.png);
 }
-.service__item_digital::before{
+.service__item--digital::before{
 	background-image: url(../img/digital-min.png);
 }
 
