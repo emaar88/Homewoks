@@ -393,12 +393,22 @@ cursor: pointer;
 {
 	margin-right: 0;
 } 
-.about-mans
+
+.modal-personal
+{
+	display: none;
+}
+.mans
+{
+	width: 380px;
+	height: 470px;
+}
+.mans__info
 {
 	padding-top: 15px; /* отступ от картинок до подписей*/
 }
 
-.about-mans__header
+.mans__info--header
 {
 	margin: 0;
 	padding: 0;
@@ -407,7 +417,7 @@ cursor: pointer;
 	text-transform: uppercase;
 	margin-bottom: 16px;
 }
-.about-mans__text
+.mans__info--text
 {
 	margin: 0;
     padding: 0;
@@ -418,17 +428,6 @@ cursor: pointer;
 	font-size: 15px;
 	line-height: 24px;
 
-}
-
-.modal-personal
-{
-	display: none;
-}
-
-.mans
-{
-	width: 380px;
-	height: 470px;
 }
 
 
