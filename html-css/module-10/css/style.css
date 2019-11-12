@@ -209,6 +209,7 @@ cursor: pointer;
 	-webkit-transform: scale(1.1);
 	    -ms-transform: scale(1.1);
 	        transform: scale(1.1);
+
 }
 
 .service
@@ -318,6 +319,7 @@ cursor: pointer;
 	margin: 0;
 }
 .service__service-title
+
 {
 	margin: 0;
 	font-size: 14px;
@@ -326,6 +328,7 @@ cursor: pointer;
 	margin-bottom: 20px;
 }
 .service__service-desc
+
 {
 	margin: 0;
 	font-family:  'Roboto', sans-serif;
@@ -393,12 +396,12 @@ cursor: pointer;
 {
 	margin-right: 0;
 } 
-.about-mans
+.mans__info
 {
 	padding-top: 15px; /* отступ от картинок до подписей*/
 }
 
-.about-mans__header
+.mans__info--header
 {
 	margin: 0;
 	padding: 0;
@@ -407,7 +410,7 @@ cursor: pointer;
 	text-transform: uppercase;
 	margin-bottom: 16px;
 }
-.about-mans__text
+.mans__info--text
 {
 	margin: 0;
     padding: 0;
@@ -529,8 +532,3 @@ cursor: pointer;
 .footer-page__email::-ms-input-placeholder
 {
 	padding: 15px;
-}
-.footer-page__email::placeholder
-{
-	padding: 15px;
-}
