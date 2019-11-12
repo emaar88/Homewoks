@@ -434,6 +434,8 @@ cursor: pointer;
 {
 	width: 380px;
 	height: 470px;
+	animation: img-appear 200ms linear;
+	-webkit-animation: img-appear 200ms linear;
 }
 
 @-webkit-keyframes img-appear 
