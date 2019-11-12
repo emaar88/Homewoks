@@ -360,7 +360,7 @@ cursor: pointer;
 	background-repeat: no-repeat;
 }
 
-.our-team__our-team-description
+.our-team__description
 {
 	margin: auto;
 	width: 980px;
@@ -372,7 +372,7 @@ cursor: pointer;
 	text-align: center;
 }
 
-.our-team__our-team-list
+.our-team__list
 {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -387,13 +387,13 @@ cursor: pointer;
 	margin: 0;
 }
 
-.our-team__our-team-parts 
+.our-team__worker 
 {
 	list-style-type: none;
 	width: 380px;
 	position: relative;
 }
-.our-team__our-team-parts:last-child
+.our-team__worker:last-child
 {
 	margin-right: 0;
 } 
@@ -436,7 +436,7 @@ cursor: pointer;
 
 
 
-.our-team__our-team-parts:hover .mans__image
+.our-team__worker:hover .mans__image
 {
 	position: absolute;
 	top: 0;
@@ -448,7 +448,7 @@ cursor: pointer;
 	        animation: img-appear 500ms ease-in-out;
 	z-index: 1;
 }
-.our-team__our-team-parts:hover .modal-personal
+.our-team__worker:hover .modal-personal
 {
 	display: block;
 	position: absolute;
@@ -460,7 +460,7 @@ cursor: pointer;
 
 
 
-.our-team__our-team-parts:hover .fill-around
+.our-team__worker:hover .fill-around
 {
 	width: 380px;
 	height: 470px;
