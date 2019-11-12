@@ -42,7 +42,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee898a', end
 		-webkit-transform: translateY(-10px);
 		        transform: translateY(-10px);
 	}	
-} */
+} 
 
 @keyframes img-appear 
 {
@@ -57,7 +57,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee898a', end
 		-webkit-transform: translateY(-10px);
 		        transform: translateY(-10px);
 	}	
-}
+}*/
 
 .modal-personal__icons
 {
