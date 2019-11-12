@@ -473,10 +473,8 @@ cursor: pointer;
 {
 	margin: 0;
 	height: 63px;
-	padding-top: 10px;
-	padding-bottom: 10px;
 }
-.footer-page .container
+.footer-page__info
 {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -488,6 +486,7 @@ cursor: pointer;
 	    -ms-flex-align: center;
 	        align-items: center;
 	border-top: 1px solid #e5e5e5;
+	padding-top: 10px;
 }
 .footer-page__text
 {
