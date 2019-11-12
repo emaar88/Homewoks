@@ -21,8 +21,26 @@ background: -webkit-gradient(linear, left top, left bottom, from(rgba(238,137,13
 background: -o-linear-gradient(top, rgba(238,137,138,0.85) 0%,rgba(252,227,138,0.85) 100%);
 background: linear-gradient(to bottom, rgba(238,137,138,0.85) 0%,rgba(252,227,138,0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee898a', endColorstr='#fce38a',GradientType=0 ); /* IE6-9 */
-animation: img-appear 500ms ease-in-out;
-transform: translate(-10px, -10px);
+-webkit-animation: img-appear 500ms ease-in-out;
+        animation: img-appear 500ms ease-in-out;
+-webkit-transform: translate(-10px, -10px);
+    -ms-transform: translate(-10px, -10px);
+        transform: translate(-10px, -10px);
+}
+
+@-webkit-keyframes img-appear 
+{
+
+	0% 
+		{
+			-webkit-transform: translate(0, 0);
+			        transform: translate(0, 0);
+		}
+	100%
+	{
+		-webkit-transform: translateY(-10px, -10px);
+		        transform: translateY(-10px, -10px);
+	}	
 }
 
 @keyframes img-appear 
@@ -30,11 +48,13 @@ transform: translate(-10px, -10px);
 
 	0% 
 		{
-			transform: translate(0, 0);
+			-webkit-transform: translate(0, 0);
+			        transform: translate(0, 0);
 		}
 	100%
 	{
-		transform: translateY(-10px, -10px);
+		-webkit-transform: translateY(-10px, -10px);
+		        transform: translateY(-10px, -10px);
 	}	
 }
 
@@ -73,7 +93,6 @@ transform: translate(-10px, -10px);
  background-color: var(--rose-color);
 }
 .modal-personal__link:hover .modal-personal__icon{
-
     fill: var(--main-color);
 }
 
