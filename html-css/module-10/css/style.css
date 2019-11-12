@@ -199,6 +199,7 @@ border: 3px solid #fff; /* stroke */
 text-transform: uppercase;
 font-family: "Montserrat";
 font-size: 14px;
+text-align: center;
 color: var(--main-color);
 font-weight: bold;
 padding: 10px 0;
