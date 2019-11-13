@@ -38,8 +38,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee898a', end
 		}
 	100%
 	{
-		-webkit-transform: translate(-10px, -10px);
-		        transform: translate(-10px, -10px);
+		-webkit-transform: translateY(-10px, -10px);
+		        transform: translateY(-10px, -10px);
 	}	
 }
 
@@ -53,8 +53,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee898a', end
 		}
 	100%
 	{
-		-webkit-transform: translate(-10px, -10px);
-		        transform: translate(-10px, -10px);
+		-webkit-transform: translateY(-10px, -10px);
+		        transform: translateY(-10px, -10px);
 	}	
 }
 
