@@ -1,0 +1,114 @@
+.our-team
+{
+	margin: 0;
+	padding-bottom: 86px;
+}
+
+.our-team__normal-header
+{
+	margin: 0;
+	text-align: center;
+	&::after
+	{
+		margin: 43px auto 47px;
+		content: "";
+		height: 3px;
+		width: 60px;
+		background-color:$rose-color;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	
+}
+
+.our-team__description
+{
+	margin: auto;
+	width: 980px;
+	margin-bottom: 96px;
+	font-family:  $roboto_font;
+	@include font-settings (15px, 24px);
+	color: $text-color;
+	text-align: center;
+}
+
+.our-team__list
+{
+	@extend %flex-center-space-between;
+	@extend %zero;
+}
+
+.our-team__worker 
+{
+	list-style-type: none;
+	width: 380px;
+	position: relative;
+	&:last-child
+	{
+		margin-right: 0;
+	}
+}
+
+.modal-personal
+{
+	display: none;
+}
+.mans
+{
+	width: 380px;
+	height: 470px;
+}
+.mans__info
+{
+	padding-top: 15px; /* отступ от картинок до подписей*/
+}
+
+.mans__info--header
+{
+	@extend %zero;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+}
+.mans__info--text
+{
+	@extend %zero;
+	font-family:  $roboto_font;
+	font-style: italic;
+	color: $text-color;
+	text-align: center;
+	font-size: 15px;
+	line-height: 24px;
+
+}
+
+
+
+.our-team__worker:hover .mans__image
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	@extend %animation500-ease-in-out;
+	z-index: 1;
+}
+.our-team__worker:hover .modal-personal
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+
+
+
+.our-team__worker:hover .fill-around
+{
+	width: 380px;
+	height: 470px;
+	background-color: $turquise-color;
+	z-index: 0;
+}

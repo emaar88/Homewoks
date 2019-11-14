@@ -1,0 +1,45 @@
+.footer-page
+{
+	margin: 0;
+	height: 63px;
+}
+.footer-page__info
+{
+	@extend %flex-center-space-between;
+	border-top: 1px solid #e5e5e5;
+	padding-top: 10px;
+}
+.footer-page__text
+{
+	margin: 0;
+}
+.footer-page__email
+{
+	display: inline-block;
+	width: 230px;
+	height: 40px;
+	font-style: italic;
+	color: $text-color;
+	&::placeholder
+	{
+		padding: 15px;
+	}
+}
+.footer-page__send
+{
+	display: inline-block;
+	cursor: pointer;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-transform: capitalize;
+	background: #95e1d3;
+	border: none;
+	border-radius: 2px;
+	color: $main-color;
+}
+.footer-page__red-text
+{
+	color: $rose-color;
+}

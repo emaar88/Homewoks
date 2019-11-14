@@ -1,0 +1,31 @@
+%zero
+{
+    padding: 0;
+	margin: 0;
+}
+%zero-auto
+{
+    padding: 0;
+	margin: 0 auto;
+}
+%flex-center-space-between
+{
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+%animation500-ease-in-out
+{
+    -webkit-animation: img-appear 500ms ease-in-out;
+        animation: img-appear 500ms ease-in-out;
+-webkit-transform: translate(-10px, -10px);
+    -ms-transform: translate(-10px, -10px);
+        transform: translate(-10px, -10px);
+}

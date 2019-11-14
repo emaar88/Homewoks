@@ -47,6 +47,11 @@ a{
 	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 2px;
+	transition: color 600ms linear;
+}
+.menu>a:hover
+{
+	color:#ff4d4f;
 }
 nav.navigation
 {
@@ -67,7 +72,6 @@ nav.navigation
 	margin: 0;
 	padding: 0;
 	display: block;
-	transition: all 200ms linear;
 } 
 
 .list-navigation>li>a
@@ -76,9 +80,10 @@ nav.navigation
 	color: white;
 	font-weight: bold;
 	padding: 10px;
-	transition: color 200ms linear;
+	transition: box-shadow 400ms linear;
 	-moz-border-radius: 18px;
 -webkit-border-radius: 18px;
+text-align: center;
 }
 .list-navigation>li>a:hover
 {
@@ -131,8 +136,13 @@ h2.normal-header
 -webkit-background-clip: padding-box;
 background-clip: padding-box;
 background-color: #ff4d4f;
+transition: color 500ms ease-in-out;
     }
-
+	.find-partner:hover
+	{
+		color: #ff4d4f;
+		background-color: white;
+	}
 .meet-partner-list
 {
 	padding: 0;
@@ -199,4 +209,9 @@ line-height: 36px;
 color: #ff4d4f;
 font-weight: bold;
 font-size: 14px;
+transition: color 600ms cubic-bezier(1, 0, 0, 1);
+}
+.else-person:hover{
+	background-color: #ff4d4f;
+	color:#fff;
 }

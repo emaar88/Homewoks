@@ -324,6 +324,7 @@ nav.navigation
 	top: 0;
 	left: 0;
 	transform: translate(-10px, -10px);
+	animation: img-appear 200ms linear;
 	z-index: 1;
 }
 .our-team-parts:hover .fill-around
