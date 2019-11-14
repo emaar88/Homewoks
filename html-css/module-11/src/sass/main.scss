@@ -1,0 +1,19 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+
+@import 'normalize.scss';
+@import 'helpers/variables.scss';
+@import 'helpers/extends.scss';
+@import 'helpers/mixins.scss';
+@import 'modal.scss';
+@import 'base.scss';
+@import 'containers.scss';
+@import 'header.scss';
+@import 'menu.scss';
+
+@import 'navigation.scss';
+@import 'welcome-mogo.scss';
+@import 'service.scss';
+@import 'our-team.scss';
+@import 'footer.scss';
