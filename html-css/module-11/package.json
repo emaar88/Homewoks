@@ -9,6 +9,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+
   "homepage": "https://emaar88.github.io/goit-fe-course/",
   "repository": {
     "type": "git",
