@@ -1,3 +1,11 @@
+:root
+{
+	--rose-color: #f38181;
+	--turquise-color: #95e1d3;
+	--roboto-font: 'Roboto', sans-serif;
+	--kaushan-font: 'Kaushan Script', cursive;
+	--grey-color:#999999;
+}
 .modal-personal
 {
     position: absolute;
@@ -59,7 +67,7 @@ transform: translate(-10px, -10px);
 }
 .icons a:hover
 {
- background-color: #95e1d3;
+ background-color: var(--turquise-color);
  transform: scale(1.15);
 }
 
