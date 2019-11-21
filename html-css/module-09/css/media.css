@@ -5,8 +5,6 @@
         padding-top: 20px;
         padding-bottom: 138px;
         background-image: url(../img/promo-mobile.png);
-        background-position: top center;
-        background-repeat: repeat-x;
     }
     .menu
     {
@@ -38,6 +36,10 @@
     {
         margin: 0 auto;
         color: #fff;
+    }
+    .urla
+    {
+        text-align: center;
     }
     .holiday-dream h2
     {
@@ -75,6 +77,11 @@
         font-size: 14px;
         font-weight: 400;
     }
+    .social
+    {
+        /* right: 195px; */
+        right: 45px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px)
@@ -82,8 +89,6 @@
     .head-module
     {
         background-image: url(../img/promo-tablet.png);
-        background-position: top center;
-        background-repeat: repeat-x;
     }
     .menu
     {
@@ -97,12 +102,6 @@
     {
         order: 1;
     }
-    .list-navigation
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
     .holiday-dream
     {
         padding-bottom: 232px;
@@ -111,15 +110,18 @@
     {
         padding-bottom: 40px;
     }
-
-
-    [class*="person-"]:not(:nth-last-child(2n+1))
+    [class*="person-"]:not(:nth-last-child(-n+2))
     {
         margin-bottom: 60px;
     }
     [class*="person-"]:nth-last-child(-n+2)
     {
         margin-bottom: 40px;
+    }
+    .social
+    {
+        /* right: 30%; */
+        right: 45px;
     }
 
     .person-1
@@ -144,8 +146,10 @@
     .head-module
     {
         background-image: url(../img/promo.png);
-        background-position: top center;
-        background-repeat: repeat-x;
+    }
+    .head-menu
+    {
+        flex-direction: row-reverse;
     }
     .menu
     {
@@ -158,7 +162,8 @@
     .urla
     {
         order: 1;
-        text-align: left;
+        /* text-align: right; */
+        /* margin-left: 70%; */
     }
     .list-navigation
     {
@@ -206,5 +211,16 @@
     .person-4
     {
         order: 3;
-    }   
+    }  
+    .social
+    {
+        right: 20%;
+    } 
 }    
+@media (min-width: 1200px)
+{
+    .social
+    {
+        right: 25%;
+    }
+}
